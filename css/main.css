@@ -1,0 +1,79 @@
+/***Common*****/
+
+.separatorEl {
+    margin: 40px auto 30px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+}
+
+
+
+/**Common end**/
+/***Head*******/
+.mdl-layout__header {
+	background-color: darkblue;
+}
+
+.mdl-button {
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 720px) {
+    .mdl-button {
+	   display: none;
+    }
+}
+
+/***Head*end***/
+
+/****Body******/
+
+body {
+    background-color: lightgray;
+}
+
+.welcome-div,.about-div,.contact-div,.portfolio-div {
+	width: 80%;
+    min-height: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/*
+.about-div {
+    width: 40%;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+.img-left {
+	background-image: url('../resources/img/about-me.jpg');
+}
+
+*/
+
+.card-left {
+	width: 70%;
+    text-align: justify;
+}
+
+.card-right {
+	width: 30%;
+}
+
+.mdl-card__title-text {
+	font-family: "Lobster";
+    font-size: 2.5em;
+}
+/****Body*end**/
+
+/****Footer****/
+
+.mdl-mini-footer {
+	background-color: darkblue;
+    z-index: 100;
+    margin-top: 10px;
+}
