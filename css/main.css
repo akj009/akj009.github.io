@@ -8,8 +8,6 @@
     border-top: solid 5px;
 }
 
-
-
 /**Common end**/
 /***Head*******/
 .mdl-layout__header {
@@ -20,7 +18,11 @@
 	margin-right: 10px;
 }
 
-@media screen and (max-width: 720px) {
+.mdl-button--accent.mdl-button--accent.mdl-button--raised {
+    font-weight: 800;
+}
+
+@media screen and (max-width: 800px) {
     .mdl-button {
 	   display: none;
     }
@@ -36,24 +38,14 @@ body {
 
 .welcome-div,.about-div,.contact-div,.portfolio-div {
 	width: 80%;
-    min-height: 200px;
+    min-height: 300px;
     margin: auto;
     margin-top: 10px;
 }
 
-/*
-.about-div {
-    width: 40%;
-    position: relative;
-    margin-left: 50%;
-    margin-top: 10px;
+.welcome-div {
+	display: -webkit-box;
 }
-
-.img-left {
-	background-image: url('../resources/img/about-me.jpg');
-}
-
-*/
 
 .card-left {
 	width: 70%;
@@ -62,11 +54,42 @@ body {
 
 .card-right {
 	width: 30%;
+    float: right;
+}
+
+.card-right img {
+	max-height: 75px;
+    width:48%;
 }
 
 .mdl-card__title-text {
 	font-family: "Lobster";
     font-size: 2.5em;
+}
+
+.mdl-card__supporting-text{
+    width: 97%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mdl-card__supporting-text p{
+    font-size: 20px;
+}
+.not-started {
+	background-image: url("../resources/img/coming-soon.jpg");
+    background-repeat: no-repeat;
+}
+
+.about-footer {
+    order:3;
+}
+
+
+@media screen and (max-width: 800px) {
+    .card-right img {
+        width: 98%;
+    }
 }
 /****Body*end**/
 
