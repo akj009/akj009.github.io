@@ -18,8 +18,8 @@
 	margin-right: 10px;
 }
 
-.mdl-button--accent.mdl-button--accent.mdl-button--raised {
-    font-weight: 800;
+.mdl-button--accent.mdl-button--accent.mdl-button--raised{
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -50,6 +50,7 @@ body {
 .card-left {
 	width: 70%;
     text-align: justify;
+    padding-right: 50px;
 }
 
 .card-right {
@@ -79,6 +80,7 @@ body {
 .not-started {
 	background-image: url("../resources/img/coming-soon.jpg");
     background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .about-footer {
