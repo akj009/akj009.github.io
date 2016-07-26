@@ -1,6 +1,6 @@
 $(function() {
     // for animating the scroll.
-    $('a').on('click', function(){
+    $('a').on('click', function(event){
         event.preventDefault();
         var hash = $(this).attr('href');
         
